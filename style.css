@@ -1,1 +1,29 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.all-container {
+  height: 100%;
+  width: 100%;
+  background: firebrick;
+}
+
+.all-container .vid-container {
+  position: absolute;
+  width: 100%;
+}
+
+.all-container .vid-container video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=style.css.map */
