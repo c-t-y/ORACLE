@@ -8,4 +8,5 @@ let counter = 0;
 document.addEventListener('click', () => {
   counter = counter + 1;
   document.querySelector(`#line-${counter}`).style.opacity = 1;
+  console.log(counter);
 });
