@@ -70,6 +70,7 @@ body {
   transition: 1s;
   font-size: 2vw;
   opacity: 0;
+  text-shadow: 1px 1px #000000;
 }
 
 .all-container .text-container #line-1 {

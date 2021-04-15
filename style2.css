@@ -1,8 +1,0 @@
-li {
-  opacity: 0;
-}
-
-.fadeIn {
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}

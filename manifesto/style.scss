@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.all-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/stars.jpeg');
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  // display: flex;
+  width: 90%;
+  height: 90%;
+}
+
+.manifest-img {
+  width: 100%;
+}
+
+.glow-container {
+  margin-right: 100px;
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+}
+
+.gator-container {
+  margin-right: 100px;
+  position: absolute;
+  bottom: 0;
+  z-index: 6;
+}
+
+#canvas-container {
+  margin-right: 100px;
+  position: absolute;
+  bottom: 0;
+  z-index: 5;
+}
